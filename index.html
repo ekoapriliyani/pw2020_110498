@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Al-Fazza Tech</title>
+    </head>
+
+    <body>
+
+    <!-- navbar -->
+    <div class="navbar-fixed">
+      <nav class="blue darken-2">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">A-FT</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Clients</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- sidenav -->
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="">About Us</a></li>
+      <li><a href="">Clients</a></li>
+      <li><a href="">Services</a></li>
+      <li><a href="">Portfolio</a></li>
+      <li><a href="">Contact Us</a></li>
+    </ul>
+
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+
+      </script>
+    </body>
+  </html>
